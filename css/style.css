@@ -1,28 +1,3 @@
-div.topBar {
-  height: 50px;
-  width: 100%;
-  background-color: #8c32d1;
-  overflow: hidden;
-  position: fixed;
-}
-
-.topBar a {
-  width: 25%;
-  float: left;
-  color: whitesmoke;
-  @font-face {
-    font-family: "MyWebFont";
-    src: url("WebFont.eot");
-    src: url("WebFont.eot?iefix") format("eot"),
-      url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"),
-      url("WebFont.svg#webfont") format("svg");
-  }
-}
-
-.font-barlow {
-  font-family: Barlow, Arial, Helvetica, sans-serif;
-}
-
 .top-bar {
   height: 50px;
   width: 100%;
@@ -40,4 +15,8 @@ div.topBar {
 .top-bar a:hover {
   background-color: darkgreen;
   color: aliceblue;
+}
+
+.font-barlow {
+  font-family: Barlow, Arial, Helvetica, sans-serif;
 }
