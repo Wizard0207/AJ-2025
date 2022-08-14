@@ -1,0 +1,12 @@
+{
+    "name": "@wizard0207/aj-2025",
+    "version": "0.0.1",
+    "description": "The SA contingent website for AJ 2025",
+    "main": "index.js",
+    "repository": "https://github.com/Wizard0207/AJ-2025.git",
+    "author": "The AJ-2025 Website Authors",
+    "license": "GPL-3.0",
+    "scripts": {
+        "compile-fonts-scss": "sass css/fonts/fonts.scss css/fonts.css"
+    }
+}
