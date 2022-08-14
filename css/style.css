@@ -1,21 +1,33 @@
-.top-bar {
-  height: 50px;
-  width: 100%;
-  background-color: #8c32d1;
-  overflow: hidden;
-  position: fixed;
+html,
+body {
+    margin: 0;
 }
 
-.top-bar a {
-  margin-right: auto;
-  color: whitesmoke;
+.navbar {
+    height: 64px;
+    width: 100vw;
+    margin-right: 100%;
+    background-color: #8c32d1;
+    position: fixed;
 }
 
-.top-bar a:hover {
-  background-color: whitesmoke;
-  color: darkgreen;
+.navbar-container {
+    display: flex;
+    height: 100%;
+    padding: 0 4rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-item:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.navbar-item-link {
+    background-color: whitesmoke;
+    color: darkgreen;
 }
 
 .font-barlow {
-  font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
 }
