@@ -1,3 +1,14 @@
 div.topBar {
   background-color: aqua;
+  overflow: hidden;
+}
+
+.topBar a {
+  float: left;
+  color: crimson;
+}
+
+.topBar a:hover {
+  background-color: darkgreen;
+  color: aliceblue;
 }
