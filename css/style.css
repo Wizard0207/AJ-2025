@@ -7,14 +7,13 @@
 }
 
 .top-bar a {
-  width: 25%;
-  float: left;
+  margin-right: auto;
   color: whitesmoke;
 }
 
 .top-bar a:hover {
-  background-color: darkgreen;
-  color: aliceblue;
+  background-color: whitesmoke;
+  color: darkgreen;
 }
 
 .font-barlow {
