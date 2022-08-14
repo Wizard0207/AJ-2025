@@ -1,25 +1,30 @@
-div.topBar {
-  height: 50px;
-  width: 100%;
-  background-color: #8c32d1;
-  overflow: hidden;
-  position: fixed;
+/* 
+    AJ-2025 Website v0.0.1 (https://github.com/Wizard0207/AJ-2025)
+    Copyright 2022 The AJ-2025 Website Authors
+    Licensed under GPL-3.0 (https://github.com/Wizard0207/AJ-2025/blob/main/LICENSE)
+*/
+
+@import url("/css/fonts.css");
+
+.font-barlow {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
 }
 
-.topBar a {
-  width: 25%;
-  float: left;
-  color: whitesmoke;
-  @font-face {
-    font-family: "MyWebFont";
-    src: url("WebFont.eot");
-    src: url("WebFont.eot?iefix") format("eot"),
-      url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"),
-      url("WebFont.svg#webfont") format("svg");
-  }
+.top-bar {
+    height: 50px;
+    width: 100%;
+    background-color: #8c32d1;
+    overflow: hidden;
+    position: fixed;
 }
 
-.topBar a:hover {
-  background-color: darkgreen;
-  color: aliceblue;
+.top-bar a {
+    width: 25%;
+    float: left;
+    color: whitesmoke;
+}
+
+.top-bar a:hover {
+    background-color: darkgreen;
+    color: aliceblue;
 }
